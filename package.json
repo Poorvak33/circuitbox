@@ -1,28 +1,44 @@
 {
-  "name": "react-javascript",
-  "version": "1.0.0",
-  "type": "module",
-  "description": "React TypeScript on Replit, using Vite bundler",
+  "name": "circuitbox",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/react": "^18.2.37",
-    "@types/react-dom": "^18.2.15",
-    "@vitejs/plugin-react": "^4.2.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "typescript": "^5.2.2",
-    "vite": "^5.0.0"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "firebase": "^10.12.4",
-    "react-router-dom": "^6.25.1",
-    "styled-components": "^6.1.12"
+    "@mantine/carousel": "^7.11.2",
+    "@mantine/charts": "^7.11.2",
+    "@mantine/core": "^7.11.2",
+    "@mantine/dates": "^7.11.2",
+    "@mantine/dropzone": "^7.11.2",
+    "@mantine/form": "^7.11.2",
+    "@mantine/hooks": "^7.11.2",
+    "@mantine/modals": "^7.11.2",
+    "@mantine/notifications": "^7.11.2",
+    "@mantine/tiptap": "^7.11.2",
+    "@tabler/icons-react": "^3.11.0",
+    "@tiptap/extension-link": "^2.5.6",
+    "@tiptap/react": "^2.5.6",
+    "@tiptap/starter-kit": "^2.5.6",
+    "dayjs": "^1.11.12",
+    "embla-carousel-react": "^8.1.7",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8.4.40",
+    "postcss-preset-mantine": "^1.17.0",
+    "postcss-simple-vars": "^7.0.1",
+    "typescript": "^5"
   }
 }
